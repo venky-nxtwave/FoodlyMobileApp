@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/*contact */
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1b1c1c;
+    background-size: cover;
+}
+
+.common {
+    width: 100%;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.2s ease;
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+.nameInput:hover,
+.nameInput:focus {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.emailInput:hover,
+.emailInput:focus {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.messageInput:hover,
+.messageInput:focus {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+button {
+    cursor: pointer;
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.bg-profile {
+    background-color: gray;
+    background-size: cover;
+    padding: 5px;
+    height: 35px;
+    width: 35px;
+    border-radius: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.offerBg {
+    background-image: linear-gradient(to right, #e80ce8, #f5e6f5);
+    background-size: cover;
+    height: 25vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offerBg2 {
+    background-image: linear-gradient(to right, #046340, #f5e6f5);
+    background-size: cover;
+    height: 25vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offerBg3 {
+    background-image: linear-gradient(to right, #0a7ac9, #f5e6f5);
+    background-size: cover;
+    height: 25vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.restaurents {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.allRestaurents {
+    display: flex;
+    overflow: auto;
+}
+
+.restaurent1 {
+    background-image: url("https://img.freepik.com/free-photo/fresh-gourmet-meal-beef-taco-salad-plate-generated-by-ai_188544-13382.jpg?t=st=1718016849~exp=1718020449~hmac=e1bc72f592adb791bad293fddda3c5250ec4bed37ab088f825dd3f2c9c2f5529&w=1060");
+    background-size: cover;
+    height: 20vh;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.restaurentName {
+    display: flex;
+    max-width: 100px;
+    justify-content: center;
+}
+
+.restaurent2 {
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/wnk9wiywodvxexulwb0p");
+    background-size: cover;
+    height: 20vh;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.restaurent3 {
+    background-image: url("https://img.freepik.com/free-photo/fruit-salad-spilling-floor-was-mess-vibrant-colors-textures-generative-ai_8829-2895.jpg?t=st=1718015735~exp=1718019335~hmac=5fd8d194b65c647032bf9d5f2a80efed31d91e08ff0097055701334a7a764f7e&w=360");
+    background-size: cover;
+    height: 20vh;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.restaurent4 {
+    background-image: url("https://img.freepik.com/free-photo/flame-grilled-meat-cooking-flames-generative-ai_188544-12355.jpg?t=st=1718018601~exp=1718022201~hmac=bc6fad00367ec96c22a33d5f094d5a010685c4b94cd5d85b05acf80a69bacb53&w=1060");
+    background-size: cover;
+    height: 20vh;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.restaurent5 {
+    background-image: url("https://img.freepik.com/free-photo/fresh-pasta-with-hearty-bolognese-parmesan-cheese-generated-by-ai_188544-9469.jpg?t=st=1718018645~exp=1718022245~hmac=3fdb2ba2c8d107807bc9330e0b2319ecb0013dc73ccdd4ee4ad9b2665a7c3274&w=1060");
+    background-size: cover;
+    height: 20vh;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.choiceItems {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.image1 {
+    width: 105px;
+    height: 105px;
+}
+
+.itemName {
+    align-self: center;
+}
+
+.filter-bg {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    background-size: cover;
+    height: 30px;
+    min-width: 80px;
+    border: 1px solid #01142b;
+    border-radius: 20px;
+    border-width: 2px;
+    font-family: "bree serif";
+    flex-grow: 1;
+}
+
+
+
+
+
+
+
+
+.bg-container {
+    background-color: #ffffff;
+    background-size: cover;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.button-signIn {
+    background-color: orange;
+    background-size: cover;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border-width: 0px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.checkbox-input {
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+.explore-card {
+    border-radius: 16px;
+}
+
+.menu-item-link {
+    color: #d0b200;
+    font-weight: 500;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.hamburger {
+    font-size: 20px;
+    color: #323f4b;
+    font-weight: bold;
+    font-family: "Roboto";
+    margin-top: 24px;
+}
+
+.explore-image {
+    border-radius: 10px;
+}
+
+.e-heading {
+    font-size: 28px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #183b56;
+}
+
+.Explore-menu-section {
+    background-color: white;
+}
+
+
+
+.non-veg-heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    font-family: "Roboto";
+}
+
+.card-radius {
+    border-radius: 16px;
+}
+
+.heading {
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.order-now {
+    font-size: 14px;
+    font-family: "Roboto"
+}
+
+
+.bg-color {
+    background-color: #e0e0e0;
+    background-size: cover;
+}
+
+.zone {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.bg-colo1 {
+    background-color: white;
+    background-size: cover;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.icon-home {
+    color: red;
+    font-size: 20px;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.icon-item {
+    color: green;
+}
+
+.button {
+    background-color: transparent;
+    border-style: solid;
+    height: 35px;
+    width: 90px;
+    border-radius: 10px;
+    border-color: #e0e0e0;
+    border-width: 0px;
+}
+
+.button_11 {
+    background-color: transparent;
+    border-style: solid;
+    height: 35px;
+    width: 90px;
+    border-radius: 10px;
+    border-color: #e0e0e0;
+}
+
+.left {
+    text-align: center;
+}
+
+.icon-ash {
+    color: gray;
+}
+
+.card_bell {
+    background-color: white;
+    border-radius: 15px;
+    width: 100px;
+}
+
+.button_pay {
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    border-width: 0px;
+    height: 45px;
+    width: 180px;
+}
+
+.card_last {
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+
+.bg-color {
+    background-color: #e0e0e0;
+    background-size: cover;
+}
+
+.zone {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.bg-colo1 {
+    background-color: white;
+    background-size: cover;
+}
+
+.icon-home {
+    color: red;
+    font-size: 20px;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.icon-item {
+    color: green;
+}
+
+.button {
+    background-color: transparent;
+    border-style: solid;
+    height: 35px;
+    width: 90px;
+    border-radius: 10px;
+    border-color: #e0e0e0;
+}
+
+.left {
+    text-align: center;
+}
+
+.icon-ash {
+    color: gray;
+}
+
+.card_bell {
+    background-color: white;
+    border-radius: 15px;
+    width: 100px;
+}
+
+.button_pay {
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    border-width: 0px;
+    height: 45px;
+    width: 180px;
+}
+
+.card_last {
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.non-veg-heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    font-family: "Roboto";
+}
+
+.card-radius {
+    border-radius: 16px;
+}
+
+.heading {
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.order-now {
+    font-size: 14px;
+    font-family: "Roboto"
+}
